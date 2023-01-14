@@ -103,6 +103,11 @@ img {
   letter-spacing: 0.02em;
 }
 
+.link-wrap{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-list a {
   color: #2e2f42;
 }
@@ -142,19 +147,16 @@ img {
   color: var(--accent-active-color);
 }
 
-.header-link {
-  display: flex;
-  min-width: 151px;
-  padding-left: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
+.header-link,
 .header-tel {
   display: flex;
   min-width: 151px;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header-link {
+  padding-left: 332px;
 }
 
 /*-----------------------HERO-------------------*/
