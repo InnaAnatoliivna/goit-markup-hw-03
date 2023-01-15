@@ -68,17 +68,20 @@ img {
   padding: 0px 15px;
 }
 
-.header-navigation {
+.header-wrap {
   display: flex;
 }
 
-.header-wrap {
+.header-navigation {
   display: flex;
   align-items: center;
 }
 
 .header-logo {
   display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -169,11 +172,11 @@ img {
 
 .hero-container {
   display: inline-block;
+  padding: 188px 329px;
 }
 
 .hero-title {
   max-width: 500px;
-  margin-top: 188px;
   margin-bottom: 48px;
 
   font-size: 56px;
@@ -187,7 +190,6 @@ img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 188px;
   padding: 16px 32px;
 
   background: var(--accent-pasive-color);
@@ -210,6 +212,11 @@ img {
 .features {
 }
 
+.features-container {
+  padding-top: 120px; 
+  padding-bottom: 132px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -224,8 +231,6 @@ img {
 
 .features-list {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 20px;
 }
 
@@ -277,6 +282,11 @@ img {
   background: #f4f4fd;
 }
 
+.team-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team-title {
   color: var(--title-color);
 }
@@ -284,7 +294,6 @@ img {
 .team-list {
   display: flex;
   padding-top: 72px;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
@@ -297,8 +306,12 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.card-team {
+  padding-bottom: 32px;
+  padding: 32px 16px;
+}
+
 .team-subtitle {
-  padding-top: 32px;
   padding-bottom: 8px;
 
   font-weight: var(--typical-fw);
@@ -311,8 +324,6 @@ img {
 }
 
 .team-text {
-  padding-bottom: 32px;
-
   font-size: var(--typical-fs);
   line-height: var(--typical-lh);
   text-align: center;
@@ -329,7 +340,7 @@ img {
   background: #2e2f42;
 }
 
-.div-container {
+.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -364,9 +375,13 @@ img {
 .menu {
 }
 
+.gallery-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .menu-list {
   display: flex;
-  padding-top: 96px;
   padding-bottom: 72px;
   padding-right: 262px;
   padding-left: 262px;
@@ -404,11 +419,7 @@ img {
 }
 
 .gallery-item:nth-child(-n + 6) {
-  margin-bottom: 48px;
-}
-
-.gallery-item:nth-last-child(-n + 3) {
-  margin-bottom: 120px;
+  padding-bottom: 48px;
 }
 
 .gallery-item {
